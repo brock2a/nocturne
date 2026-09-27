@@ -2578,6 +2578,7 @@ msgstr "This connector only supports recent syncs."
 msgid "Select a date range to re-sync specific data."
 msgstr "Select a date range to re-sync specific data."
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/connectors/ConnectorDetailsDialog.svelte
 #: src/routes/(authenticated)/alerts/dnd/+page.svelte
 #: src/routes/(authenticated)/settings/audit/+page.svelte
@@ -2585,6 +2586,7 @@ msgstr "Select a date range to re-sync specific data."
 msgid "From"
 msgstr "From"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/connectors/ConnectorDetailsDialog.svelte
 #: src/routes/(authenticated)/alerts/dnd/+page.svelte
 #: src/routes/(authenticated)/settings/audit/+page.svelte
@@ -5055,6 +5057,8 @@ msgstr "hours"
 msgid "Peak"
 msgstr "Peak"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/RuleBuilderLeafEditor.svelte
 #: src/lib/components/alerts/RuleBuilderLeafEditor.svelte
 #: src/lib/components/alerts/RuleBuilderLeafEditor.svelte
@@ -6343,6 +6347,7 @@ msgstr "Median-75th"
 #~ msgid "Avg Before"
 #~ msgstr "Avg Before"
 
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
 #: src/lib/components/settings/alarm-profile/AlarmGeneralTab.svelte
 #: src/lib/components/treatments/edit-dialog/BGCheckFormFields.svelte
 #: src/routes/(authenticated)/settings/appearance/+page.svelte
@@ -10301,6 +10306,7 @@ msgstr "Active Time Ranges"
 msgid "+ Add Range"
 msgstr "+ Add Range"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/settings/alarm-profile/AlarmScheduleTab.svelte
 #: src/routes/(authenticated)/reports/site-change-impact/+page.svelte
 msgid "to"
@@ -10634,6 +10640,7 @@ msgstr "MgDl"
 msgid "Mmol"
 msgstr "Mmol"
 
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
 #: src/lib/components/treatments/edit-dialog/BGCheckFormFields.svelte
 #: src/routes/(authenticated)/settings/appearance/+page.svelte
 msgid "mmol/L"
@@ -15611,10 +15618,12 @@ msgstr "Derive a starting auto-resolve from the firing tree"
 msgid "<0/> Suggest"
 msgstr "<0/> Suggest"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/RuleBuilder.svelte
 msgid "Notify when"
 msgstr "Notify when"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/RuleBuilder.svelte
 msgid "these are true:"
 msgstr "these are true:"
@@ -15644,6 +15653,7 @@ msgstr "<0/> Remove group"
 msgid "NOT"
 msgstr "NOT"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/RuleBuilderRow.svelte
 msgid "for at least"
 msgstr "for at least"
@@ -15792,10 +15802,12 @@ msgstr "Replay this alert (and any siblings) against historical glucose. Nothing
 msgid "Shift"
 msgstr "Shift"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/OperatorToggle.svelte
 msgid "All conditions must hold"
 msgstr "All conditions must hold"
 
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
 #: src/lib/components/alerts/OperatorToggle.svelte
 msgid "Any condition is enough"
 msgstr "Any condition is enough"
@@ -25519,3 +25531,115 @@ msgstr "Mute for me"
 #: src/lib/components/members/InviteSummary.svelte
 msgid "You can press Mute for me on an alert to stop it reaching you. Other people keep getting it until someone who manages alerts acknowledges it, or it ends."
 msgstr "You can press Mute for me on an alert to stop it reaching you. Other people keep getting it until someone who manages alerts acknowledges it, or it ends."
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Group: match"
+msgstr "Group: match"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "all of"
+msgstr "all of"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "any of"
+msgstr "any of"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Remove group"
+msgstr "Remove group"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "NOT: the opposite of this condition"
+msgstr "NOT: the opposite of this condition"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Glucose value"
+msgstr "Glucose value"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Rate"
+msgstr "Rate"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "at least"
+msgstr "at least"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Minutes without a reading"
+msgstr "Minutes without a reading"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "no reading for"
+msgstr "no reading for"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Only when true for a while"
+msgstr "Only when true for a while"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Minutes it must hold"
+msgstr "Minutes it must hold"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "Remove condition"
+msgstr "Remove condition"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "not"
+msgstr "not"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "<0/> Group"
+msgstr "<0/> Group"
+
+#: ../portal/src/lib/components/docs/alert-simulator/ConditionEditor.svelte
+msgid "<0/> Condition"
+msgstr "<0/> Condition"
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "NOT applies to: "
+msgstr "NOT applies to: "
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "No alert over this trace."
+msgstr "No alert over this trace."
+
+#. 0: active.label.toLowerCase()
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "Glucose readings for the {0} example, with the times each rule was alerting shaded."
+msgstr "Glucose readings for the {0} example, with the times each rule was alerting shaded."
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "Whole rule is true"
+msgstr "Whole rule is true"
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "Alerting"
+msgstr "Alerting"
+
+#. 0: issues[index].map((i) => issueText[i.reason] ?? i.reason).join(", ")
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "A save would be refused: this rule needs {0}."
+msgstr "A save would be refused: this rule needs {0}."
+
+#. 0: Math.round(hovered.age)
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "· last reading {0} min ago"
+msgstr "· last reading {0} min ago"
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "· no reading yet"
+msgstr "· no reading yet"
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "<0/> Reset the example"
+msgstr "<0/> Reset the example"
+
+#. 0: failure
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "The alert engine could not run here ({0}). The rest of this page still applies."
+msgstr "The alert engine could not run here ({0}). The rest of this page still applies."
+
+#: ../portal/src/lib/components/docs/alert-simulator/AlertSimulator.svelte
+msgid "This runs Nocturne's own alert engine in your browser, one check every 5 minutes, as <0>Replay</0> does in the app. The readings are made up to show one behaviour; they are not anyone's data, and nothing here is medical advice."
+msgstr "This runs Nocturne's own alert engine in your browser, one check every 5 minutes, as <0>Replay</0> does in the app. The readings are made up to show one behaviour; they are not anyone's data, and nothing here is medical advice."
